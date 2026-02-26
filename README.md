@@ -30,24 +30,40 @@ Sensors → MQTT → Raspberry Pi (edge processing) → Dashboard + InfluxDB
 
 ```
 liberty-twin/
-├── edge/                    Edge processor (Python, runs on Pi)
-│   ├── processor.py         Main: MQTT, detection, fusion, ghost FSM
-│   ├── ghost_detector.py    Per-seat ghost state machine
-│   ├── sensor_fusion.py     Camera + radar fusion engine
-│   └── config.py            Thresholds, topics, zone mapping
+├── edge/                    # Edge processor (Python, runs on Pi)
+│   ├── processor.py         # Main: MQTT, detection, fusion, ghost FSM
+│   ├── ghost_detector.py    # Per-seat ghost state machine
+│   ├── sensor_fusion.py     # Camera + radar fusion engine
+│   └── config.py            # Thresholds, topics, zone mapping
 │
-├── dashboard/               Web dashboard (Flask + SocketIO)
-│   ├── app.py               Server with MQTT subscriber
-│   ├── templates/           HTML templates
-│   └── static/              CSS + JavaScript
+├── dashboard/               # Web dashboard (Flask + SocketIO)
+│   ├── app.py               # Server with MQTT subscriber
+│   ├── templates/           # HTML templates
+│   └── static/              # CSS + JavaScript
 │
-├── LibraryModel/            Unity 3D simulation
-│   └── Assets/Scripts/      C# scripts (sensor, students, library)
+├── LibraryModel/            # Unity 3D simulation
+│   └── Assets/Scripts/      # C# scripts (sensor, students, library)
 │
-├── broker/                  Mosquitto MQTT config
-├── scripts/                 Startup scripts
-└── docs/                    Architecture, protocols, report
+├── broker/                  # Mosquitto MQTT config
+├── scripts/                 # Startup scripts
+└── docs/                    # Architecture, protocols, report
 ```
+
+---
+
+## Demo Videos
+
+### 3D Library Model
+<video src="3d_linrary_model_compressed.mp4" controls width="100%">
+  Your browser does not support the video tag.
+</video>
+
+### Web Dashboard & Code
+<video src="web_and_code_compressed.mp4" controls width="100%">
+  Your browser does not support the video tag.
+</video>
+
+---
 
 ## How to Run
 
