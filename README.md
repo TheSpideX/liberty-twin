@@ -54,14 +54,14 @@ liberty-twin/
 ## Demo Videos
 
 ### 3D Library Model
-<video src="3d_linrary_model_compressed.mp4" controls width="100%">
-  Your browser does not support the video tag.
-</video>
+[![3D Library Model](https://img.shields.io/badge/Play-Video-blue?style=for-the-badge)](3d_linrary_model_compressed.mp4)
 
 ### Web Dashboard & Code
-<video src="web_and_code_compressed.mp4" controls width="100%">
-  Your browser does not support the video tag.
-</video>
+[![Web Dashboard](https://img.shields.io/badge/Play-Video-green?style=for-the-badge)](web_and_code_compressed.mp4)
+
+Or download directly:
+- [3d_linrary_model_compressed.mp4](3d_linrary_model_compressed.mp4)
+- [web_and_code_compressed.mp4](web_and_code_compressed.mp4)
 
 ---
 
